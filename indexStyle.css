@@ -1,0 +1,160 @@
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.Sign {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.main h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+}
+
+p {
+    text-align: center;
+
+}
+
+div.pic {
+    text-align: center;
+}
+
+ul {
+    text-align: right;
+}
+
+header {
+    text-align: center;
+
+}
+
+form {
+    text-align: center;
+}
+
+form placeholder {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align:left;
+    padding: 5px;
+    text-align:center;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(3) {
+    background-color: white;
+}
+
+
+tr:nth-child(1) {
+    background-color: #84bfff;
+    text-align: center;
+}
+
+div .mapouter {
+    margin-left: 35%;
+}
+
+.luz {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#fullName {
+    text-align: right;
+}
+
+#guest {
+    text-align: right;
+}
+
+#info {
+    position: relative;
+    text-align: right;
+    margin-left: 70%;
+    height: 180px;
+    width: 300px;
+}
+
+#number {
+    text-align: right;
+}
+
+.SocialNetworks {
+    text-align: center;
+}
+
+div.col-md-8 p {
+    text-align: right;
+    font-size: 5mm;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 300px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    height: 300px;
+    width: 300px;
+}
+
+div.pic img {
+    height: 150px;
+}
+
+.container header img {
+    height: 130px;
+    width: 100%;
+}
+
+.SocialNetworks img {
+    height: 40px;
+}
+
+.list-group-item-dark {
+    color: blue;
+
+}
+
+.container footer {
+    color: white;
+}
+
