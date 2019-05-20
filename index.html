@@ -140,7 +140,8 @@
                     </div>
                     <div class="form-group col-md-6">
                         <label for="fullName">שם מלא</label>
-                        <input type="text" class="form-control" id="fullName" placeholder="שם מלא" name="text1">
+                        <input type="name" class="form-control" id="fullName" placeholder="שם מלא" name="firstname"
+                               onchange="OnlyLetters(this)">
                         <p id=fullName1></p>
                     </div>
                 </div>
@@ -148,7 +149,7 @@
                     <div class="form-group col-md-2">
                         <label for="phone">קידומת פלאפון </label>
                         <select name="raiting" id=phone class=form-control>
-                            <option value= "">בחר</option>
+                            <option value="">בחר</option>
                             <option value="1">053</option>
                             <option value="2">052</option>
                             <option value="3">050</option>
@@ -171,7 +172,7 @@
                     <div class="form-group col-md-3">
                         <label for="carpool">בחירת דרך הגעה</label>
                         <select name="raiting" class="form-control" id="carpool">
-                            <option value= "">בחר</option>
+                            <option value="">בחר</option>
                             <option value="1">מני אור עקיבא</option>
                             <option value="2">דוד נתניה</option>
                             <option value="3">הגעה עצמאית</option>
@@ -230,7 +231,8 @@
                                 <img src="images/me.jpg" alt="logo" id="me">
                             </div>
                             <div class="form-group col-md-6">
-                                <p> שלום רב, לכל שאלה, בקשה, בעיה או לכל דבר אחר - את/ה תמיד מוזמנ/ת לשלוח לי מייל באמצעות
+                                <p> שלום רב, לכל שאלה, בקשה, בעיה או לכל דבר אחר - את/ה תמיד מוזמנ/ת לשלוח לי מייל
+                                    באמצעות
                                     הכפתור למטה. בברכה, מני בלדב </p>
                                 <form method="post"
                                       action="mailto:menibeladev@gmail.com?&amp;subject=עצמאות%20חיפה%202019&amp;body=מני%20שלום%20רב:%20">

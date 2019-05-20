@@ -62,18 +62,14 @@ function checkForm() {
     var atposition = x.indexOf("@");
     var dotposition = x.lastIndexOf(".");
     var number = document.getElementById("guest").value;
-    var name = document.getElementById("fullName").value;
+    var fullNameCheck = document.getElementById("fullName").value;
     var car = document.getElementById("carpool").value;
     var area = document.getElementById("phone").value;
-    let english = /^[A-Za-z]+$/;
-    let hebrew = /[\u0590-\u05FF]/;
 
-    if (!name.valueOf().match(english) && (!name.valueOf().match(hebrew)) && (!name.valueOf().match(" ")) || name.valueOf() == "") {
-        text = "!שם לא תקין* ";
-    } else {
-        text = "";
+    var fullNameCheck = document.getElementById("fullName").value;
+    if (fullNameCheck.length == 0) {
+        document.getElementById("fullName1").innerHTML = "!שם מלא לא תקין* ";
     }
-    document.getElementById("fullName1").innerHTML = text;
 
     if (phone.length == 7) {
         text = "";
@@ -112,6 +108,26 @@ function checkForm() {
         text = "";
     }
     document.getElementById("phone1").innerHTML = text;
+}
+
+
+/*FullName!!!*/
+
+var text = "";
+
+function OnlyLetters(inputL) {
+
+    var letters = /^[א-תA-Za-z ]+$/;
+    if (inputL.value.match(letters)) {
+        text = "";
+        document.getElementById("fullName1").innerHTML = text;
+        return true;
+
+    } else {
+        text = "!שם מלא לא תקין* ";
+        document.getElementById("fullName1").innerHTML = text;
+        return false;
+    }
 }
 
 
