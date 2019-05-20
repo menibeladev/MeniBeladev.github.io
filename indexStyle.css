@@ -65,9 +65,9 @@ table {
 
 td, th {
     border: 1px solid #dddddd;
-    text-align:left;
+    text-align: left;
     padding: 5px;
-    text-align:center;
+    text-align: center;
 }
 
 tr:nth-child(even) {
@@ -104,9 +104,12 @@ div .mapouter {
 #info {
     position: relative;
     text-align: right;
-    margin-left: 70%;
     height: 180px;
     width: 300px;
+}
+
+form {
+    text-align: center;
 }
 
 #number {
@@ -158,3 +161,82 @@ div.pic img {
     color: white;
 }
 
+#currentImage {
+    height: 253px;
+    width: 350px;
+}
+
+#prev {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    margin: 4px 2px;
+    font-size: 16px;
+}
+
+#next {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    margin: 4px 2px;
+    font-size: 16px;
+}
+
+#phoneNumber1 {
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+}
+
+#email1 {
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+}
+
+#guest1 {
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+}
+
+#carpool1 {
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+}
+
+#phone1 {
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+}
+
+#fullName1 {
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+}
+
+#register {
+    margin-left: 30%;
+}
+
+#me {
+    height: 200px;
+    width: 200px;
+}
+
+#contact {
+    margin-left: 25%;
+    background-color: lightyellow;
+
+}
+
+#left {
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+}
