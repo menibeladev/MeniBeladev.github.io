@@ -49,7 +49,7 @@
     //C: COMPUTES THE DAYS UNTIL THE EVENT.
     $diffrence = ($target - $today);
     $days = floor($diffrence / 86400);
-    $hours = floor(($diffrence % (86400)) / (3600) - 1);
+    $hours = floor(($diffrence % (86400)) / (3600));
     $minutes = floor(($diffrence % (3600)) / (60));
     $seconds = floor(($diffrence % (60)) / 1);
 
