@@ -102,10 +102,12 @@ div .mapouter {
 }
 
 #info {
-    position: relative;
     text-align: right;
     height: 180px;
     width: 300px;
+    position: relative;
+    margin-left: 37%;
+
 }
 
 form {
@@ -221,7 +223,13 @@ div.pic img {
 }
 
 #register {
-    margin-left: 30%;
+    margin-right: 70%;
+    font-size: large;
+}
+
+#clear {
+    margin-left: 70%;
+    font-size: large;
 }
 
 #me {
@@ -240,3 +248,27 @@ div.pic img {
     font-size: medium;
     font-style: oblique;
 }
+ h5 {
+     color: white;
+     text-align: center;
+     font-size: large;
+ }
+.phpForm{
+    color: red;
+    text-align: center;
+}
+
+.phpFormS{
+    color: green;
+    text-align: center;
+    font-size: large;
+
+}
+
+#clock{
+    color: white;
+    text-align: center;
+
+}
+
+
